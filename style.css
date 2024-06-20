@@ -1,0 +1,174 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/top-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#introText{
+    width: 40%;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.nameHighlight{
+    color: orange
+}
+
+p{
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: orangered;
+    color: white;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+#introImg{
+    width: 40%;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+#introImg img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+#dreamSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#dreamImg{
+    width: 40%;
+    margin-right: 5%;
+}
+
+#dreamImg img{
+    width: 100%;
+}
+
+#dreamText{
+    width: 40%;
+    padding: 2%;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.big{
+    color: #ff1771;
+}
+.big:hover{
+    font-size: 50px;
+}
+
+#btnCV{
+    background-color: #ff1771;
+}
+
+#btnCV:hover{
+    background-color: black;
+}
+
+#xpSec h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.cards{
+    width: 40%;
+    padding: 20px;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .5);
+    border-radius: 5px;  
+    background-color: white;  
+}
+
+.cards h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.cards h4{
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.cards p{
+    font-size: 14px;
+    color: rgb(110, 109, 109);
+}
+
+#card1{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff1771, lightsalmon);
+    border-image-slice: 1;
+}
+
+#card2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(2, 218, 247)) 1;
+}
+
+footer{
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: rgb(138, 138, 138);
+    padding: 10px;
+    text-align: center;
+    font-size: smaller;
+}
